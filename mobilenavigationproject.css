@@ -1,0 +1,69 @@
+
+body{
+    background-color: rgb(166, 130, 201);
+    
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height:500px;
+    background-color: white;
+    border:2px solid white;
+    border-radius: 10px;
+    align-content: center;
+    overflow:hidden;
+    margin-top: 80px;
+    margin-bottom:80px;
+    margin-left:550px;
+    margin-right: 500px;
+    box-shadow: 2px 3px 3px cornsilk;
+    
+
+}
+.image-container{
+    width:250px;
+    height:450px;
+
+   
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.icon-container{
+    width:250px;
+    height:25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:10px;
+    
+
+}
+.text-container{
+    width:250px;
+    height:25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0px;
+    font-size: xx-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#home:hover{
+    color:rgb(166, 130, 201);
+}
+#work:hover{
+    color:rgb(166, 130, 201);
+}
+#blog:hover{
+    color:rgb(166, 130, 201);
+}
+#about-us:hover{
+    color:rgb(166, 130, 201);
+}
